@@ -1,5 +1,5 @@
 {% set name = "libcoro" %}
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jbaldwin/libcoro/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 895ca24e6c73b994423fc187c86c635f5c2f20a1def2886b7397c40236f4c33b
+  sha256: 9cfc46c0ed9b008769eb0552909d20123b785f71c023e99402cd1128703660ee
 
 build:
   number: 0
